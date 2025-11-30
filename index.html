@@ -1,15 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Se Vai Pai</title>
-</head>
-<body>
+  </head>
+  <body id="bg">
+    <header>
+      <h1><a href="#">logo</a></h1>
+      <ul>
+        <li><a href="sobre">sobre</a></li>
+        <li>contato</li>
+      </ul>
+    </header>
+    <main>
+      <h1 id="titulo">Se Vai Pai</h1>
+      <button id="start">SE VAI PAI</button>
+    </main>
 
-    <header></header>
-    <main></main>
+    <audio id="musica" loop></audio>
+
     <footer></footer>
-    
-</body>
+  </body>
+
+  <!-- ORDEM CORRETA -->
+  <script src="https://unpkg.com/three@0.152.2/build/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+
+  <script src="js/background.js"></script>
+  <script src="js/script.js"></script>
 </html>
