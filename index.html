@@ -3,31 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Se Vai Pai</title>
+    <title>Se Vai Pai - By Tom</title>
+
+    <!-- Descrição e SEO -->
+    <meta
+      name="description"
+      content="Projeto Se Vai Pai - Criado especialmente para o Tom."
+    />
+
+    <!-- Fonte moderna -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body id="bg">
     <header>
-      <h1><a href="#">logo</a></h1>
+      <h1><a href="#">Tom.dev</a></h1>
       <ul>
-        <li><a href="sobre">sobre</a></li>
-        <li>contato</li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </header>
+
     <main>
       <h1 id="titulo">Se Vai Pai</h1>
-      <button id="start">SE VAI PAI</button>
+      <button id="start">Bora Tom!</button>
     </main>
+
+    <iframe src="https://www.meshy.ai/3d-models/Smiling-Style-v2-019ad339-0b2e-7e42-b338-a5b00f76a7f6" width="600" height="450" frameborder="0" allowfullscreen></iframe>
 
     <audio id="musica" loop></audio>
 
-    <footer></footer>
+    <footer>Projeto criado especialmente para o Tom © 2025</footer>
+
+    <!-- VANTA (somente uma versão do THREE é necessária) -->
+    <script src="https://unpkg.com/three@0.152.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+
+    <script src="js/background.js"></script>
+    <script src="js/script.js"></script>
   </body>
-
-  <!-- ORDEM CORRETA -->
-  <script src="https://unpkg.com/three@0.152.2/build/three.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
-
-  <script src="js/background.js"></script>
-  <script src="js/script.js"></script>
 </html>
